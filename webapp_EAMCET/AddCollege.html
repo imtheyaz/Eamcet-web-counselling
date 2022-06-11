@@ -1,0 +1,43 @@
+<html>
+<body bgcolor="beige">
+<center>
+<div  style="font:700 30pt arial;letter-spacing:5pt;color:white;background-color:maroon">
+Add New College
+</div>
+<p>
+<form method="post" action="AddCollege.jsp">
+<table>
+<tr>
+<td>Collge ID
+<td><input type="text" name="cid" size="10">
+</tr>
+<tr>
+<td>Collge Name
+<td><input type="text" name="cname" size="20">
+</tr>
+<tr>
+<td>Collge Address
+<td><textarea row="3" cols="30"  name="caddress"></textarea>
+</tr>
+<tr>
+<td>Region
+<td><select name="region">
+<option value=au>Andhra University
+<option value=ou>Osmania University
+<option value=jntu>JNTU University
+</select>
+</tr>
+<tr>
+<td>College Email Address
+<td><input type="text" size="50" name="email">
+</tr>
+</table>
+<p>
+<input type="submit" value="Add College">
+<input type="reset" value="Clear All">
+</form>
+<p>
+<a href="AdminHome.html">Admin Menu</a>
+</center>
+</body>
+</html>

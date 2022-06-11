@@ -1,0 +1,79 @@
+<html>
+<body bgcolor="beige">
+<center>
+<div  style="font:700 30pt arial;letter-spacing:5pt;color:white;background-color:red">
+Student Registration
+</div>
+
+
+<center>
+
+
+<form action="StudentRegistration.jsp" method="post">
+<table>
+<tr>
+<td>
+Hall Ticket No:
+<td>
+<input type=text name=htno  size=10>
+</tr>
+
+
+<tr>
+<td>
+Rank 
+<td>
+<input type=text name=srank size=10>
+</tr>
+
+
+<tr>
+<td>
+Student Name
+<td>
+<input type=text name=sname size=30>
+</tr>
+
+
+<tr>
+<td>
+Gender
+<td>
+<select  name=gender>
+<option  value=0>Select Gender
+<option  value=male>Male</option>
+<option value=female>Female</option>
+</tr>
+
+
+<tr>
+<td>
+Category 
+<td>
+<select  name=category>
+<option  value=0>Select Category
+<option  value=open>Open</option>
+<option value=reserved>Reserved</option>
+</tr>
+
+
+<tr>
+<td>
+Region
+<td>
+<select  name=region>
+<option  value=0>Select Region
+<option  value=AU>Andhra University</option>
+<option value=SVUCE>Sri Venkateswara University</option>
+<option value=JNTU>JNTU</option>
+
+</tr>
+
+</table>
+
+<input type=submit value="Register">
+<input type="reset" value="Clear All">
+
+</form>
+</body>
+</html>
